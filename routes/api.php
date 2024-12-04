@@ -6,7 +6,6 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\PostController;
 
 Route::apiResource('posts', PostController::class);
-
 Route::apiResource('users', UserController::class);
 
 Route::get('/user', function (Request $request) {
